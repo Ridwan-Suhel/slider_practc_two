@@ -1,0 +1,1 @@
+This is slider special webtemplate with Closes responsive menu when a scroll link is clicked 

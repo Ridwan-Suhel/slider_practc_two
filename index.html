@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/slick.css">
+	<link rel="stylesheet" type="text/css" href="css/slick-theme.css"/>
+	<link rel="stylesheet" href="css/owl.carousel.min.css">
+	<link rel="stylesheet" href="css/style.css">
+	<title>Document</title>
+</head>
+<body>
+	
+	<header class="bg-primary">
+		<div class="container">
+			<nav class="navbar navbar-expand-lg navbar-light">
+			  <div class="container-fluid">
+			    <a class="navbar-brand" href="#">Navbar</a>
+			    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+			      <span class="navbar-toggler-icon"></span>
+			    </button>
+			    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+			      <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+			        <li class="nav-item">
+			          <a class="nav-link active" aria-current="page" href="#">Home</a>
+			        </li>
+			        <li class="nav-item">
+			          <a class="nav-link" aria-current="page" href="#">Service</a>
+			        </li>
+			        <li class="nav-item">
+			          <a class="nav-link" aria-current="page" href="#">Portfolio</a>
+			        </li>
+			        <li class="nav-item">
+			          <a class="nav-link" aria-current="page" href="#">Location</a>
+			        </li>
+			        <li class="nav-item">
+			          <a class="nav-link" aria-current="page" href="#">Contact</a>
+			        </li>
+			      </ul>
+			    </div>
+			  </div>
+			</nav>
+		</div>
+	</header>
+
+
+	<div class="hero-slider">
+		<div class="container-fluid px-0">
+			<div class="owl-carousel owl-theme">
+			    <div class="item">
+			    	<h2 class="text-danger">OWL CAROUSEL SLIDE-01</h2>
+			    	<img class="img-fluid" src="img/slider-111.jpg" alt="Image-1">
+			    </div>
+			    <div class="item">
+			    	<h2 class="text-danger">OWL CAROUSEL SLIDE-02</h2>
+			    	<img class="img-fluid" src="img/slider-222.jpg" alt="Image-2">
+			    </div>
+			    <div class="item">
+			    	<h2 class="text-danger">OWL CAROUSEL SLIDE-03</h2>
+			    	<img class="img-fluid" src="img/slider-333.jpg" alt="Image-3">
+			    </div>
+			</div>
+		</div>
+	</div>
+
+
+	<!-- slick slider -->
+
+
+	<section class="py-5 bg-primary slick-slider-area">
+		<div class="container py-5">
+
+			<div class="title">
+				<h3 class="h1 text-center text-white mb-5">Slick Slider js</h3>
+			</div>
+
+			<div class="slick-class bg-secondary py-5">
+				<!-- single item -->
+			    <div class="single-item">
+			    	<div class="item-img">
+			    		<img class="img-fluid" src="img/slick/1.png" alt="img">
+			    	</div>
+			    	<div class="item-content">
+			    		<h4 class="mb-2">Ridwan</h4>
+			    		<p class="lead pb-0">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione.</p>
+			    	</div>
+			    </div>
+				<!-- single item -->
+			    <div class="single-item">
+			    	<div class="item-img">
+			    		<img class="img-fluid" src="img/slick/2.png" alt="img">
+			    	</div>
+			    	<div class="item-content">
+			    		<h4 class="mb-2">Hussen</h4>
+			    		<p class="lead pb-0">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione.</p>
+			    	</div>
+			    </div>
+				<!-- single item -->
+			    <div class="single-item">
+			    	<div class="item-img">
+			    		<img class="img-fluid" src="img/slick/3.png" alt="img">
+			    	</div>
+			    	<div class="item-content">
+			    		<h4 class="mb-2">Suhel</h4>
+			    		<p class="lead pb-0">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione.</p>
+			    	</div>
+			    </div>
+				<!-- single item -->
+			    <div class="single-item">
+			    	<div class="item-img">
+			    		<img class="img-fluid" src="img/slick/5.png" alt="img">
+			    	</div>
+			    	<div class="item-content">
+			    		<h4 class="mb-2">Alex</h4>
+			    		<p class="lead pb-0">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione.</p>
+			    	</div>
+			    </div>
+				<!-- single item -->
+			    <div class="single-item">
+			    	<div class="item-img">
+			    		<img class="img-fluid" src="img/slick/6.png" alt="img">
+			    	</div>
+			    	<div class="item-content">
+			    		<h4 class="mb-2">Hales</h4>
+			    		<p class="lead pb-0">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione.</p>
+			    	</div>
+			    </div>
+			</div>
+		</div>
+	</section>
+
+
+
+
+
+
+
+
+
+
+
+
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+	<script src="js/owl.carousel.min.js"></script>
+	<script src="js/slick.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<script src="js/main.js"></script>
+
+
+	<script>
+		$('.hero-slider .owl-carousel').owlCarousel({
+		    loop:true,
+		    margin:0,
+		    nav:true,
+		    dots: false,
+		    autoplay: true,
+		    responsive:{
+		        0:{
+		            items:1
+		        },
+		        600:{
+		            items:1
+		        },
+		        1000:{
+		            items:1
+		        }
+		    }
+		})
+	</script>
+
+	 <script type="text/javascript">
+	    $(document).ready(function(){
+	      $('.slick-class').slick({
+		  infinite: true,
+		  slidesToShow: 3,
+		  slidesToScroll: 1,
+		  autoplay: true,
+		  dots: true,
+		  responsive: [
+		    {
+		      breakpoint: 768,
+		      settings: {
+		        arrows: false,
+		        slidesToShow: 2
+		      }
+		    },
+		    {
+		      breakpoint: 480,
+		      settings: {
+		        arrows: false,
+		        slidesToShow: 1
+		      }
+		    }
+		    		]
+
+		  });
+	    });
+  </script>
+</body>
+</html>
+
